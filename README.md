@@ -1,38 +1,9 @@
-# Used Cars Dataset
+# Data Analysis Projects
 
-## Overview
+This repository contains two projects:
 
-This dataset contains information on used cars from eBay Kleinanzeigen, the classifieds section of the German eBay website. The dataset, available on Kaggle, consists of 50,000 data points, simulating a less-cleaned version.
+1. **Used Cars Dataset:**
+   This project involves analyzing data from eBay Kleinanzeigen to gain insights into used car listings. It aims to understand pricing trends, features, and other factors influencing the used car market. The dataset is sourced from Kaggle.
 
-## Data Dictionary
-
-- `dateCrawled`: Date of the first crawl.
-- `name`: Car name.
-- `seller`: Private or dealer seller.
-- `offerType`: Type of listing.
-- `price`: Advertised car price.
-- ...
-
-## Dataset Overview
-
-The dataset comprises 20 columns, mostly stored as strings. There are a few columns with null values, and some columns store date information as strings.
-
-## Data Cleaning Approach
-
-### Column Name Standardization
-
-We started by cleaning the column names for better usability:
-- Converted all names to lowercase.
-- Adjusted wordings for clarity.
-
-### Initial Observations
-
-We identified and addressed the following issues:
-- Dropped columns with constant values: `seller`, `offer_type`.
-- Investigated and handled issues with `num_photos`.
-- Removed rows with $0 prices (1,421 entries).
-- Addressed unusual maximum price ($100 million).
-
-## Feedback
-
-Your feedback is highly appreciated. Feel free to provide comments or suggestions. Thank you!
+2. **DETE & TAFE Exit Surveys:**
+   The DETE & TAFE Exit Surveys project analyzes exit surveys from employees of the Department of Education, Training and Employment (DETE) and the Technical and Further Education (TAFE) body in Queensland, Australia. It aims to understand employee satisfaction, reasons for resignation, and tenure trends. The analysis addresses stakeholder queries regarding employee retention.
